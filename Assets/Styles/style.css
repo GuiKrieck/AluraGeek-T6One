@@ -1,0 +1,20 @@
+:root{
+    --header-bg-color : #5D04D9;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    background-color: var(--header-bg-color);
+}
+
+.header__image{
+    padding: 20px 0;
+}
