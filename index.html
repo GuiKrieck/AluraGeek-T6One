@@ -5,18 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" 
-    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" 
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Assets/Styles/reset.css">
     <link rel="stylesheet" href="./Assets/Styles/style.css">
+
     <title>Alura Geek</title>
 </head>
 <body>
     <header class="header">
         <img src="./Assets/Images/AluraGeekLogo.svg" alt="Logo da Alura Geek" class="header__image">
     </header>
-    <main></main>
-    <footer></footer>
+    
+    <main class="main">
+        <section class="main__products">
+            <h2 class="section__title">Meus Produtos:</h2>
+            <ul class="products__container">
+                <li class="products__card">
+                    <img src="./Assets/Images/Gameboy__png.png" alt="" class="card__image">
+                    <p class="card__information">Game Boy Classic</p>
+                    <p class="card__information bold">$ 60,00</p>
+                    <button class="card__delete-button"></button>
+                </li>
+                <li class="products__card">
+                    <img src="./Assets/Images/StormTrooper.png" alt="" class="card__image">
+                    <p class="card__information">Stromtrooper</p>
+                    <p class="card__information bold">$ 60,00</p>
+                    <button class="card__delete-button"></button>
+                </li>
+                <li class="products__card">
+                    <img src="./Assets/Images/Gameboy__png.png" alt="" class="card__image">
+                    <p class="card__information">Game Boy Classic</p>
+                    <p class="card__information bold">$ 60,00</p>
+                    <button class="card__delete-button"></button>
+                </li>     
+            </ul>
+        </section>
+        <section class="main__form">
+            <h2 class="section__title">Adicionar Produto:</h2>
+            <form action="" class="form__container">
+                <input type="text" placeholder="Nome..." class="form__item" required>
+                <input type="text" placeholder="Preço..." class="form__item" required>
+                <input type="url" placeholder="Link da Imagem..." class="form__item" required>
+                <div class="form__buttons">
+                    <button class="form__button blue-button">Gravar</button>
+                    <button type="reset" class="form__button white-button">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer">
+            <img src="./Assets/Images/AluraGeekLogo.svg" alt="logo da Alura Geek">
+            <p>Desenvolvido por Guilherme P. Krieck</p>
+            <p class="footer__light-text">Oracle Next Education(ONE) Turma 6 - 2024</p>
+    </footer>
 </body>
 </html>
