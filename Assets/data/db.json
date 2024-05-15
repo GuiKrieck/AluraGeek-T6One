@@ -1,0 +1,34 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "product": "Game Boy Classic",
+      "price": "60,00",
+      "image": "./Assets/Images/Gameboy__png.png"
+    },
+    {
+      "id": 2,
+      "product": "Stormtrooper",
+      "price": "60,00",
+      "image": "./Assets/Images/StormTrooper.png"
+    },
+    {
+      "product": "Nendoroid Da Hinata",
+      "price": "120,00",
+      "image": "https://images.tcdn.com.br/img/img_prod/758144/nendoroid_879_naruto_shippuden_hinata_goodsmile_15809_1_c855f538a4e174b282d906ac50f119c0.jpg",
+      "id": 3
+    },
+    {
+      "product": "Nendoroid Do Kakashi",
+      "price": "150,00",
+      "image": "https://images.tcdn.com.br/img/img_prod/758144/nendoroid_1636_kakashi_hatake_naruto_goodsmile_12975_1_98d8da4660e0e1ce861aa7ae44474603.jpg",
+      "id": 4
+    },
+    {
+      "product": "Nendoroid do Itachi",
+      "price": "50,00",
+      "image": "https://m.media-amazon.com/images/I/51+bjlbOSXL._AC_UF894,1000_QL80_DpWeblab_.jpg",
+      "id": 5
+    }
+  ]
+}

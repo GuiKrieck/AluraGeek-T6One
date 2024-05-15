@@ -26,35 +26,17 @@
     <main class="main">
         <section class="main__products">
             <h2 class="section__title">Meus Produtos:</h2>
-            <ul class="products__container">
-                <li class="products__card">
-                    <img src="./Assets/Images/Gameboy__png.png" alt="" class="card__image">
-                    <p class="card__information">Game Boy Classic</p>
-                    <p class="card__information bold">$ 60,00</p>
-                    <button class="card__delete-button"></button>
-                </li>
-                <li class="products__card">
-                    <img src="./Assets/Images/StormTrooper.png" alt="" class="card__image">
-                    <p class="card__information">Stromtrooper</p>
-                    <p class="card__information bold">$ 60,00</p>
-                    <button class="card__delete-button"></button>
-                </li>
-                <li class="products__card">
-                    <img src="./Assets/Images/Gameboy__png.png" alt="" class="card__image">
-                    <p class="card__information">Game Boy Classic</p>
-                    <p class="card__information bold">$ 60,00</p>
-                    <button class="card__delete-button"></button>
-                </li>     
+            <ul class="products__list">   
             </ul>
         </section>
         <section class="main__form">
             <h2 class="section__title">Adicionar Produto:</h2>
-            <form action="" class="form__container">
-                <input type="text" placeholder="Nome..." class="form__item" required>
-                <input type="text" placeholder="Preço..." class="form__item" required>
-                <input type="url" placeholder="Link da Imagem..." class="form__item" required>
+            <form action="" class="form__container" data-form>
+                <input type="text" placeholder="Nome..." class="form__item" id="form-product" required>
+                <input type="text" placeholder="Preço..." class="form__item" id="form-price" required>
+                <input type="url" placeholder="Link da Imagem..." class="form__item" id="form-image" required>
                 <div class="form__buttons">
-                    <button class="form__button blue-button">Gravar</button>
+                    <input  type="submit" class="form__button blue-button" id="submit__button"></input>
                     <button type="reset" class="form__button white-button">Limpar</button>
                 </div>
             </form>
@@ -65,5 +47,8 @@
             <p>Desenvolvido por Guilherme P. Krieck</p>
             <p class="footer__light-text">Oracle Next Education(ONE) Turma 6 - 2024</p>
     </footer>
+
+    <script src="./Assets/js/apiConnection.js" type="module"></script>
+    <script src="./Assets/js/main.js" type="module"></script>
 </body>
 </html>
